@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 #Simple script to generate hex vaules from decimal input values and output them into a list
+#Maybe I shouldnt say Decimal, since its really and int.
 #Example usage: python dec_hex_generator.py 400 500 > output.txt
 
 import sys
@@ -17,8 +18,7 @@ def int_tuple_from_cmdline():
           try:
              args[i] = int(args[i])
           except ValueError:
-             raise SystemExit("\n#################################################\n# Parameter %d is not an integer. You entered: %s #\n#################################################\n" %(i+1,
-args[i]))
+             raise SystemExit("\n#################################################\n# Parameter %d is not an integer. You entered: %s #\n#################################################\n" %(i+1,args[i]))
       return tuple(args)
 
 start, stop = int_tuple_from_cmdline()
