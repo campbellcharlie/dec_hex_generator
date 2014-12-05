@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #Simple script to generate hex vaules from decimal input values and output them into a list
-#Maybe I shouldnt say Decimal, since its really and int.
+#Maybe I shouldnt say Decimal, since its really an int.
 #Example usage: python dec_hex_generator.py 400 500 > output.txt
 
 import sys
