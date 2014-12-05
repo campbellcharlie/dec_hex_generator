@@ -1,4 +1,4 @@
-dec_hex_generator.py
+README for dec_hex_generator.py
 =================
 
 Decimal to Hex output generator
